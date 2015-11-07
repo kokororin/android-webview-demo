@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+
 public class SplashActivity extends AppCompatActivity {
-    private final int SPLASH_DISPLAY_LENGHT = 3000; //延迟三秒
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,6 @@ public class SplashActivity extends AppCompatActivity {
                 SplashActivity.this.finish();
             }
 
-        }, SPLASH_DISPLAY_LENGHT);
+        }, 4000);
     }
 }
